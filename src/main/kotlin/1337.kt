@@ -1,4 +1,4 @@
-class Solution {
+class Solution1337 {
     /**
      * m x n binary matrix where for each row, all 1s will appear before all 0s
      *
@@ -45,7 +45,7 @@ fun main() {
         it.toIntArray()
     }.toTypedArray()
 
-    val solution = Solution()
+    val solution = Solution1337()
     val kWeakestRows = solution.kWeakestRows(mat, 3)
     kWeakestRows.forEach {
         println(it)
