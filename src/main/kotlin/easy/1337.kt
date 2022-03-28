@@ -1,3 +1,5 @@
+package easy
+
 class Solution1337 {
     /**
      * m x n binary matrix where for each row, all 1s will appear before all 0s

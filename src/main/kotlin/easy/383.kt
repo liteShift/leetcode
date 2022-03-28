@@ -1,3 +1,5 @@
+package easy
+
 /**
  * using the magazine string can you construct the ransom note? Main constraint is that you can only use each index
  *  in the magazine string once
