@@ -38,19 +38,21 @@ class Solution1254 {
         }
         return nums
     }
+}
 
-    fun main() {
-        val testCase = arrayOf(
-            intArrayOf(0, 0, 1, 1, 0, 1, 0, 0, 1, 0),
-            intArrayOf(1, 1, 0, 1, 1, 0, 1, 1, 1, 0),
-            intArrayOf(1, 0, 1, 1, 1, 0, 0, 1, 1, 0),
-            intArrayOf(0, 1, 1, 0, 0, 0, 0, 1, 0, 1),
-            intArrayOf(0, 0, 0, 0, 0, 0, 1, 1, 1, 0),
-            intArrayOf(0, 1, 0, 1, 0, 1, 0, 1, 1, 1),
-            intArrayOf(1, 0, 1, 0, 1, 1, 0, 0, 0, 1),
-            intArrayOf(1, 1, 1, 1, 1, 1, 0, 0, 0, 0),
-            intArrayOf(1, 1, 1, 0, 0, 1, 0, 1, 0, 1),
-            intArrayOf(1, 1, 1, 0, 1, 1, 0, 1, 1, 0)
-        )
-        println(Solution1254().closedIsland(testCase))
-    }
+fun main() {
+    val testCase = arrayOf(
+        intArrayOf(0, 0, 1, 1, 0, 1, 0, 0, 1, 0),
+        intArrayOf(1, 1, 0, 1, 1, 0, 1, 1, 1, 0),
+        intArrayOf(1, 0, 1, 1, 1, 0, 0, 1, 1, 0),
+        intArrayOf(0, 1, 1, 0, 0, 0, 0, 1, 0, 1),
+        intArrayOf(0, 0, 0, 0, 0, 0, 1, 1, 1, 0),
+        intArrayOf(0, 1, 0, 1, 0, 1, 0, 1, 1, 1),
+        intArrayOf(1, 0, 1, 0, 1, 1, 0, 0, 0, 1),
+        intArrayOf(1, 1, 1, 1, 1, 1, 0, 0, 0, 0),
+        intArrayOf(1, 1, 1, 0, 0, 1, 0, 1, 0, 1),
+        intArrayOf(1, 1, 1, 0, 1, 1, 0, 1, 1, 0)
+    )
+    println(Solution1254().closedIsland(testCase))
+}
+

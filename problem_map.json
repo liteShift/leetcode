@@ -7,8 +7,10 @@
   "695": "max-area-of-island",
   "733": "flood-fill",
   "876": "middle-of-the-linked-list",
+  "1020": "number-of-enclaves",
   "1254": "number-of-closed-islands",
   "1337": "the-k-weakest-rows-in-a-matrix",
   "1342": "number-of-steps-to-reduce-a-number-to-zero",
-  "1672": "richest-customer-wealth"
+  "1672": "richest-customer-wealth",
+  "1905": "count-sub-islands"
 }
